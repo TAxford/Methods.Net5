@@ -4,9 +4,13 @@ namespace Methods.Net5
 {
     internal class Program
     {
-        static void Main(string[] args)
+        //method example
+
+        public int Add(int num1 , int num2)
         {
-            Console.WriteLine("Hello World!");
+            int result = num1 + num2;
+
+            return result;
         }
     }
 }

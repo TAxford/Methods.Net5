@@ -25,10 +25,11 @@ namespace Methods.Net5
         }*/
 
 
-        //examples of methods with retrurn value and parameters
+        /*examples of methods with retrurn value and parameters
         static void Main(string[] args)
         {
             int result = Add(15, 31);
+            //can also write as Console.Writeline(Add(15, 31));
             Console.WriteLine(result);
             Console.Read();
         }
@@ -36,11 +37,24 @@ namespace Methods.Net5
         public static int Add(int num1, int num2)
         {
             return num1 + num2;
+        }*/
+
+        static void Main(string[] args)
+        {
+            int result = Add(30, 100);
+            Console.WriteLine(result);
+            Console.Read();
         }
 
-        
+        public static int Add(int num1, int num2)
+        {
+            return num1 * num2;
+        }
 
-        
+
+
+
+
 
 
 

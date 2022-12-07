@@ -4,13 +4,26 @@ namespace Methods.Net5
 {
     internal class Program
     {
-        //method example
 
-        public int Add(int num1 , int num2)
+        static void Main(string[] args)
         {
-            int result = num1 + num2;
-
-            return result;
+            WriteSomething();
         }
+
+        //method example
+        // access modifer (static) return type methd name (parameter1, parameter2)
+        public static void WriteSomething()
+        {
+            Console.WriteLine("I am called from a method");
+            Console.Read();
+        }
+
+        
+
+        
+
+
+
+
     }
 }
